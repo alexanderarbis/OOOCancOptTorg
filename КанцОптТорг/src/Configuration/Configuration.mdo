@@ -39,4 +39,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
 </mdclass:Configuration>
