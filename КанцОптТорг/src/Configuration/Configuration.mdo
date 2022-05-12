@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="baa512c8-8db4-407c-a6c7-cb4fc3d91de7">
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58830811-b318-4f8b-8570-261e828b5801">
   <name>КанцОптТорг</name>
   <synonym>
     <key>ru</key>
-    <value>Канц опт торг</value>
+    <value>ООО «КанцОптТорг»</value>
   </synonym>
-  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e8972b9a-a664-4960-9df9-07715dee89e0"/>
-  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="f50138eb-9022-4dd8-928e-a256e29eff51"/>
-  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="35b6b9b7-77c9-4c18-8ae7-4d3a003f787d"/>
-  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="8f776b2c-1894-4082-9515-c70c26219f9b"/>
-  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="42232441-8014-4e78-8758-5ae88dd27581"/>
-  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="09d54aa9-d0a0-4430-8ed9-cc558cb2fec0"/>
-  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="91c30652-1936-4b60-9734-baf89e19782f"/>
-  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="5dc52271-c68e-4704-92e2-7ba382c685b5"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9f422b8b-84b1-4649-accb-85be1500586c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="4b93838e-7e98-4d8d-8aa4-a7161738ce20"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="8b50f9dd-4105-4c7d-82b9-07c307e5b48d"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c5f438ba-91ec-48a9-a0d6-18219805e3d0"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a2be91ae-c849-4725-a1d8-503c01d09215"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="936ee53d-3ae6-4a70-a9d5-148a7d6e9369"/>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -30,8 +30,8 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.21</compatibilityMode>
-  <languages uuid="6618cc33-380d-463e-ad61-f6fd8a06eb22">
+  <compatibilityMode>8.3.20</compatibilityMode>
+  <languages uuid="0b443150-562f-4cf9-97a7-7310ac25bd12">
     <name>Русский</name>
     <synonym>
       <key>ru</key>
