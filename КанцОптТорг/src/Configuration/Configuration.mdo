@@ -42,4 +42,7 @@
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.РеализацияТоваров</documents>
+  <documents>Document.ПоступлениеТоваров</documents>
+  <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
 </mdclass:Configuration>
