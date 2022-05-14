@@ -45,4 +45,5 @@
   <documents>Document.РеализацияТоваров</documents>
   <documents>Document.ПоступлениеТоваров</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
+  <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
 </mdclass:Configuration>

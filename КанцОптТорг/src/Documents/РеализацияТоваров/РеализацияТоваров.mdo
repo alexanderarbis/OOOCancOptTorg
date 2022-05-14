@@ -24,6 +24,8 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РеализацияТоваров.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ОстаткиТоваров</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="eef266e9-eec0-491d-8def-0365c7b3abf4">
@@ -56,6 +58,33 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="19bdd314-8dc7-45e2-a0a1-d6a63cab0ff2">
+    <name>СуммаОстатка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма остатка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e0b9549b-bd3b-4ab5-9db8-ff4577bcef67">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="ff3284f5-d9a8-43dd-aff4-e35a6b4582d9">
     <producedTypes>
       <objectType typeId="a8d22386-7588-44f9-a43f-e541ad51fadc" valueTypeId="e77b9c38-b347-48ab-8732-ef645b79737d"/>
@@ -138,6 +167,9 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="dba31e41-2a2f-4df5-957f-52d1ce090ed0">
+    <name>ПечатьРеализацииТоваров</name>
+  </templates>
   <commands uuid="8ec36ca5-9012-4959-867a-c0a8e9f7790c">
     <name>ПечатьРеализацииТоваров</name>
     <group>FormCommandBarImportant</group>
