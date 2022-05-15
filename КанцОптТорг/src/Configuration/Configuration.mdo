@@ -39,11 +39,15 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.РеализацияТоваров</documents>
   <documents>Document.ПоступлениеТоваров</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
+  <informationRegisters>InformationRegister.УчетЦен</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.КолличествоИСуммаЗакупок</accumulationRegisters>
 </mdclass:Configuration>
