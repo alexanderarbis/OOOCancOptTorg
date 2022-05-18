@@ -20,8 +20,8 @@
       <key>ru</key>
       <value>Контрагент</value>
     </synonym>
-    <references>Document.РеализацияТоваров.Attribute.Клиент</references>
-    <references>Document.ПоступлениеТоваров.Attribute.Поставщик</references>
+    <references>Document.РеализацияТоваров.Attribute.Контрагент</references>
+    <references>Document.ПоступлениеТоваров.Attribute.Контрагент</references>
   </columns>
   <columns uuid="2f9bdeb1-8da5-4e52-8245-a6164f5484ed">
     <name>Ответственный</name>

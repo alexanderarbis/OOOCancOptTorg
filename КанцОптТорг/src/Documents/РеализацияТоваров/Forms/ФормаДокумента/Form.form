@@ -159,7 +159,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Клиент</segments>
+      <segments>Объект.Контрагент</segments>
     </dataPath>
     <extendedTooltip>
       <name>КлиентРасширеннаяПодсказка</name>
@@ -209,7 +209,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.СуммаОстатка</segments>
+      <segments>Объект.СуммаДокумента</segments>
     </dataPath>
     <extendedTooltip>
       <name>СуммаОстаткаРасширеннаяПодсказка</name>

@@ -44,10 +44,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="30f713d8-0b67-4a27-91b7-7c34dd4ff4a0">
-    <name>Поставщик</name>
+    <name>Контрагент</name>
     <synonym>
       <key>ru</key>
-      <value>Поставщик</value>
+      <value>Контрагент</value>
     </synonym>
     <type>
       <types>CatalogRef.Контрагенты</types>
@@ -59,10 +59,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="a42ea5f7-ac01-4954-b1e5-69a801e76604">
-    <name>СуммаОстатка</name>
+    <name>СуммаДокумента</name>
     <synonym>
       <key>ru</key>
-      <value>Сумма остатка</value>
+      <value>Сумма документа</value>
     </synonym>
     <type>
       <types>Number</types>
