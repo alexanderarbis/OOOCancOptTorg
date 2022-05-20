@@ -13,4 +13,5 @@
   <content>Document.ПоступлениеТоваров</content>
   <content>InformationRegister.УчетЦен</content>
   <content>AccumulationRegister.КолличествоИСуммаЗакупок</content>
+  <content>Report.ЗакупкиТоваров</content>
 </mdclass:Subsystem>

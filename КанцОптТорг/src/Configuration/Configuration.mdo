@@ -47,6 +47,7 @@
   <documents>Document.РеализацияТоваров</documents>
   <documents>Document.ПоступлениеТоваров</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
+  <reports>Report.ЗакупкиТоваров</reports>
   <informationRegisters>InformationRegister.УчетЦен</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.КолличествоИСуммаЗакупок</accumulationRegisters>
