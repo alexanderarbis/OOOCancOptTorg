@@ -14,4 +14,5 @@
   <content>InformationRegister.УчетЦен</content>
   <content>AccumulationRegister.КолличествоИСуммаЗакупок</content>
   <content>Report.ЗакупкиТоваров</content>
+  <content>Report.ОстаткиТоваровПоДаннымДокумента</content>
 </mdclass:Subsystem>
