@@ -18,10 +18,10 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="37d7f866-b58b-43e4-be27-e795753b10d9">
-    <name>Колличество</name>
+    <name>Количество</name>
     <synonym>
       <key>ru</key>
-      <value>Колличество</value>
+      <value>Количество</value>
     </synonym>
     <type>
       <types>Number</types>

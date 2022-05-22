@@ -16,11 +16,28 @@
   <useStandardCommands>true</useStandardCommands>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="a1b89807-a1b7-4638-915c-4feadc079fc5">
-    <name>Остаток</name>
+  <resources uuid="3797c826-6387-430d-ba8b-76df468666bf">
+    <name>Количество</name>
     <synonym>
       <key>ru</key>
-      <value>Остаток</value>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="4f6854ed-011d-496d-bd50-0c6ce12905b9">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
     </synonym>
     <type>
       <types>Number</types>
