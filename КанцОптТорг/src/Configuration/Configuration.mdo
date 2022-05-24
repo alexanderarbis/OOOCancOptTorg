@@ -41,6 +41,7 @@
   </languages>
   <subsystems>Subsystem.Закупки</subsystems>
   <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.БухгалтерскийУчет</subsystems>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
@@ -54,4 +55,6 @@
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.КолличествоИСуммаЗакупок</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <chartsOfAccounts>ChartOfAccounts.БухУчет</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.РегистрБухУчет</accountingRegisters>
 </mdclass:Configuration>
