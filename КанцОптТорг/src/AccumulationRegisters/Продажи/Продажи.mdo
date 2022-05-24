@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afbaf62e-4f4d-40cb-b1f2-3b58a294393b">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="851ea49d-5b01-441f-b573-23dd16839416">
   <producedTypes>
-    <selectionType typeId="45abcd38-ce30-49b1-a3ed-aa56bd88c7e4" valueTypeId="1d8610d0-1e7f-457b-8a66-fe22fe53abe2"/>
-    <listType typeId="9363e0bd-1051-48df-b66f-7b38d1c8f46e" valueTypeId="9b137d2c-c30f-40df-9fc2-c00a13225ec0"/>
-    <managerType typeId="8576acb9-9dbf-4845-b37e-6b33fd9610cf" valueTypeId="bac21275-4207-485c-982c-83d86e0b7ecc"/>
-    <recordSetType typeId="1086e3d6-d260-4937-89ed-f6cde09f8c44" valueTypeId="f4320810-dee7-4286-a761-13bc7143daf9"/>
-    <recordKeyType typeId="f304e427-a095-4f30-8bd0-cc4b6aec8ee6" valueTypeId="d251c283-3837-491e-8c8f-8f28ab4bb34c"/>
-    <recordType typeId="9f40f5ac-85d2-40d6-bbc1-dd19dd39d5d0" valueTypeId="f34b62c1-1618-4cd7-bf9f-4e74c39d31b4"/>
+    <selectionType typeId="891e3a67-b341-40f2-a0d2-679e9dbb9bb6" valueTypeId="780d8e43-fe96-4798-9964-360250e15f06"/>
+    <listType typeId="2d573983-8128-4589-a5b1-4f818fde8a09" valueTypeId="36cd9b85-aae2-4625-9e0f-6c1a149c7a9e"/>
+    <managerType typeId="d732c26e-b11b-40bb-9ad5-1cdccd5c83ec" valueTypeId="d178c134-940e-401f-85f9-3cbeb14ba20c"/>
+    <recordSetType typeId="562a6465-4e62-43b5-aa21-9efd0c3b4b60" valueTypeId="566c20cd-5737-4b42-a599-cf4d924d7104"/>
+    <recordKeyType typeId="1674b259-269b-45e6-a0b3-41d5862c7887" valueTypeId="6e906262-7f48-4bad-a1af-7166656d1a9c"/>
+    <recordType typeId="7cbfd170-ceb3-43d0-a022-afb6bcb7de00" valueTypeId="db5da699-1336-40b9-adb6-2b235617b3ac"/>
   </producedTypes>
-  <name>ОстаткиТоваров</name>
+  <name>Продажи</name>
   <synonym>
     <key>ru</key>
-    <value>Остатки товаров</value>
+    <value>Продажи</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <resources uuid="3797c826-6387-430d-ba8b-76df468666bf">
+  <resources uuid="15558da3-c47c-47b0-bd60-7b805c95e6be">
     <name>Количество</name>
     <synonym>
       <key>ru</key>
@@ -33,7 +34,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <resources uuid="4f6854ed-011d-496d-bd50-0c6ce12905b9">
+  <resources uuid="f8cb4761-5d11-4ceb-a1c1-c46dd0df7fad">
     <name>Сумма</name>
     <synonym>
       <key>ru</key>
@@ -50,11 +51,11 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
-  <attributes uuid="aac8975e-9e12-454c-9ff8-4ce73f539d65">
-    <name>Выручка</name>
+  <resources uuid="51855f86-681e-4a13-a0e9-bf6fe4816e27">
+    <name>Себестоимость</name>
     <synonym>
       <key>ru</key>
-      <value>Выручка</value>
+      <value>Себестоимость</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -66,8 +67,22 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-  </attributes>
-  <dimensions uuid="5eb9145d-ebc9-44c4-82ea-f57a66d2a358">
+  </resources>
+  <dimensions uuid="48d57a89-d2a3-461d-8c93-808b95503a30">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="d7ae0f83-cf75-4946-b43c-657929ae6a85">
     <name>Номенклатура</name>
     <synonym>
       <key>ru</key>

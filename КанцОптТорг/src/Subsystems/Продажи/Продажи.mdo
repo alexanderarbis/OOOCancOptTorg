@@ -13,4 +13,6 @@
   <content>Catalog.Номенклатура</content>
   <content>Catalog.Контрагенты</content>
   <content>Catalog.Сотрудники</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>Report.ВаловаяПрибыль</content>
 </mdclass:Subsystem>
