@@ -10,4 +10,6 @@
   <content>ChartOfAccounts.БухУчет</content>
   <content>AccountingRegister.РегистрБухУчет</content>
   <content>Document.БухгалтерскаяОперация</content>
+  <content>Report.ОстаткиПоСчетамБУ</content>
+  <content>Document.ЗакрытиеМесяца</content>
 </mdclass:Subsystem>

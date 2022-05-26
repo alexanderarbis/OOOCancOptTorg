@@ -63,6 +63,12 @@
       <code>51       </code>
       <accountType>ActivePassive</accountType>
     </items>
+    <items id="30a4fb96-c497-4ad2-9a32-1ccf51343bf8">
+      <name>ПрибылиИУбытки</name>
+      <description>Прибыли и убытки</description>
+      <code>99       </code>
+      <accountType>Passive</accountType>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
