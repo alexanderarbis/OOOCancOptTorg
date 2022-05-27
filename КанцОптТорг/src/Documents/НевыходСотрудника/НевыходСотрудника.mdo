@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aee68364-7548-4012-a4d2-ff8094d067db">
+  <producedTypes>
+    <objectType typeId="c1296770-90c5-49d4-acf9-128a2b6ed517" valueTypeId="236c38cd-2549-465a-8c14-1566d27e23d9"/>
+    <refType typeId="4419e49e-a385-4578-bf52-ab8a0b2aff21" valueTypeId="663bd4c1-d7cd-4e74-9052-7a4c0687e4f7"/>
+    <selectionType typeId="3f40dc5b-9002-4959-ab5a-20e0525580f8" valueTypeId="eb44e8ae-1e0e-4549-bb1f-7e0fe649dacf"/>
+    <listType typeId="ef4e4b1f-bf5d-44aa-91b9-772a69faa08a" valueTypeId="e773ca60-5b65-4c7e-986a-ad3178dde5fd"/>
+    <managerType typeId="9d5f0c35-1578-4132-ae24-37ff3ffa2f9b" valueTypeId="fc5d175a-1b22-4bd4-afc0-9b35b5bab73e"/>
+  </producedTypes>
+  <name>НевыходСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Невыход сотрудника</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.НевыходСотрудника.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>CalculationRegister.РегистрНачисленияЗарплаты</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="e54c0161-7f25-4ed0-861e-94aca8d87722">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6935def8-146b-4dbc-852c-7d45dfbcb90f">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fecb2202-a591-4460-98f8-543bcffa568e">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

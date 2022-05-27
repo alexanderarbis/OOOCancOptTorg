@@ -42,6 +42,7 @@
   <subsystems>Subsystem.Закупки</subsystems>
   <subsystems>Subsystem.Продажи</subsystems>
   <subsystems>Subsystem.БухгалтерскийУчет</subsystems>
+  <subsystems>Subsystem.Зарплата</subsystems>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
@@ -49,15 +50,21 @@
   <documents>Document.ПоступлениеТоваров</documents>
   <documents>Document.БухгалтерскаяОперация</documents>
   <documents>Document.ЗакрытиеМесяца</documents>
+  <documents>Document.ЗаполнениеГрафикаПредприятия</documents>
+  <documents>Document.НачислениеОклада</documents>
+  <documents>Document.НевыходСотрудника</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
   <reports>Report.ЗакупкиТоваров</reports>
   <reports>Report.ОстаткиТоваровПоДаннымДокумента</reports>
   <reports>Report.ВаловаяПрибыль</reports>
   <reports>Report.ОстаткиПоСчетамБУ</reports>
   <informationRegisters>InformationRegister.УчетЦен</informationRegisters>
+  <informationRegisters>InformationRegister.ГрафикПредприятия</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиТоваров</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.КолличествоИСуммаЗакупок</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <chartsOfAccounts>ChartOfAccounts.БухУчет</chartsOfAccounts>
   <accountingRegisters>AccountingRegister.РегистрБухУчет</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.РегистрНачисленияЗарплаты</calculationRegisters>
 </mdclass:Configuration>
