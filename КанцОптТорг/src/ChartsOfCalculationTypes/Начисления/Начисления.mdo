@@ -49,5 +49,12 @@
       </code>
       <displaced>ChartOfCalculationTypes.Начисления.Невыход</displaced>
     </items>
+    <items id="96de0c0d-a10d-4204-989e-a72025ba1fea">
+      <name>ПремияСуммой</name>
+      <description>Премия суммой</description>
+      <code xsi:type="core:StringValue">
+        <value>003</value>
+      </code>
+    </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>

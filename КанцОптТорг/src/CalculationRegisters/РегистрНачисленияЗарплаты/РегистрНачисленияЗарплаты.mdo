@@ -39,6 +39,23 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </resources>
+  <attributes uuid="e9daeab5-2eb1-40e4-a7db-3b9e7899dd21">
+    <name>РасчетныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетные данные</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
   <dimensions uuid="22e6ee31-01bc-4c4e-9c38-eaa2efd1f7e3">
     <name>Сотрудник</name>
     <synonym>
