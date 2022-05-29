@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08cfcd38-3c33-49a5-8755-80ca076caad8">
+  <producedTypes>
+    <objectType typeId="66e2cd50-548f-44c6-8e5a-342366dda0b5" valueTypeId="df78c97e-af93-4312-9b78-1797db3cd9d7"/>
+    <managerType typeId="c85dae0d-9b0f-493f-869a-f58be5c5363a" valueTypeId="625cd1fd-2cc6-42c5-9c97-db530138e167"/>
+  </producedTypes>
+  <name>ЗадолженностьПередСотрудниками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задолженность перед сотрудниками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="1636f781-8506-40bf-a8ce-d281abbbe4aa">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

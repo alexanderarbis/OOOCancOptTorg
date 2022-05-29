@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd928746-5179-4741-929a-3f486978a3da">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6adebc92-1f14-4386-94ea-68d79e6925b0">
   <producedTypes>
-    <objectType typeId="542475bd-6e85-45ee-bb62-e9660ff61c8d" valueTypeId="e861e269-e025-4e40-8d5e-cfb0858b5234"/>
-    <refType typeId="18040f65-d03a-4dbc-9f2e-efff7434973b" valueTypeId="1c496b46-32b0-41f7-ab59-017a654f48f9"/>
-    <selectionType typeId="1b40f745-aa29-4f54-8256-1a232b8d8209" valueTypeId="54a3b021-c18f-445c-9aa8-2faf602e80f9"/>
-    <listType typeId="5b71b413-4316-4896-b63b-da6cc0860b63" valueTypeId="42164c6f-da58-47b4-976d-410a21820fd0"/>
-    <managerType typeId="9c519270-5c9b-4697-bbc2-4b3a7d89d181" valueTypeId="e5f48fd4-7111-408f-9e82-204dad75caa2"/>
+    <objectType typeId="7be8668d-1943-47ed-af4d-5ad8213199e0" valueTypeId="e2c609a1-c76c-465c-b6f7-b183ba133d21"/>
+    <refType typeId="0f384288-696a-46de-a04a-0a4559beb983" valueTypeId="cd0db12f-4051-4720-906f-8eda499c1052"/>
+    <selectionType typeId="420a002e-cb48-4e4a-aa4d-81aff3dced51" valueTypeId="75bc0501-896b-4fe8-a683-3025542e4524"/>
+    <listType typeId="507c3b3a-7cdf-4db4-82b5-e2685ab89523" valueTypeId="2eee0e30-34f2-48a2-8bcb-921c9910a6bd"/>
+    <managerType typeId="fdf8b7fd-0aab-45b1-9c3c-91b32d36b3d4" valueTypeId="00400fd9-18f1-4119-ae8a-fe06f81e96cf"/>
   </producedTypes>
-  <name>НачислениеПремий</name>
+  <name>ВыплатаЗаработнойПлаты</name>
   <synonym>
     <key>ru</key>
-    <value>Начисление премий</value>
+    <value>Выплата заработной платы</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.НачислениеПремий.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ВыплатаЗаработнойПлаты.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -23,21 +23,20 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <registerRecords>CalculationRegister.РегистрНачисленияЗарплаты</registerRecords>
   <registerRecords>AccumulationRegister.ЗадолженностьПередСотрудниками</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <tabularSections uuid="ef1645ad-4d1f-4a96-964b-c327da20ba97">
+  <tabularSections uuid="391934f7-1a33-4ff0-a7cf-69b681120cc7">
     <producedTypes>
-      <objectType typeId="24043720-8ee5-4552-87dd-3894ba246d95" valueTypeId="3579d9b2-78aa-4635-9b38-fd5023d142d4"/>
-      <rowType typeId="a655d374-f4b4-4991-ac0c-c93d316eda28" valueTypeId="a65a2b95-e93b-43d1-a2ea-b6f8b52707c4"/>
+      <objectType typeId="a3869f19-ec53-47cc-a082-a0a7ea99b995" valueTypeId="67d54772-f23f-425a-86be-c19295c1e536"/>
+      <rowType typeId="52c126f5-7ebf-49de-aa11-2298629f2015" valueTypeId="83d709f0-e16c-4997-82ea-077eb2a1ea45"/>
     </producedTypes>
     <name>Сотрудники</name>
     <synonym>
       <key>ru</key>
       <value>Сотрудники</value>
     </synonym>
-    <attributes uuid="663e0056-bf84-4098-9203-c50cc4a78e2c">
+    <attributes uuid="626a42ab-4b55-458c-8344-f06d77054ed9">
       <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
@@ -51,11 +50,11 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="8a9341cd-d243-45a8-aed8-55010fc72867">
-      <name>СуммаПремии</name>
+    <attributes uuid="2faeefcf-2d5b-47ea-b803-96f2bccc638b">
+      <name>Сумма</name>
       <synonym>
         <key>ru</key>
-        <value>Сумма премии</value>
+        <value>Сумма</value>
       </synonym>
       <type>
         <types>Number</types>
