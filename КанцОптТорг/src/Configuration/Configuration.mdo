@@ -56,6 +56,7 @@
   <documents>Document.НачислениеПремий</documents>
   <documents>Document.ВыплатаЗаработнойПлаты</documents>
   <documentJournals>DocumentJournal.ТоварныеДокументы</documentJournals>
+  <enums>Enum.Вакансии</enums>
   <reports>Report.ЗакупкиТоваров</reports>
   <reports>Report.ОстаткиТоваровПоДаннымДокумента</reports>
   <reports>Report.ВаловаяПрибыль</reports>
@@ -72,4 +73,6 @@
   <accountingRegisters>AccountingRegister.РегистрБухУчет</accountingRegisters>
   <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
   <calculationRegisters>CalculationRegister.РегистрНачисленияЗарплаты</calculationRegisters>
+  <businessProcesses>BusinessProcess.ТестированиеКандидата</businessProcesses>
+  <tasks>Task.ЗадачаТестированиеКандидата</tasks>
 </mdclass:Configuration>

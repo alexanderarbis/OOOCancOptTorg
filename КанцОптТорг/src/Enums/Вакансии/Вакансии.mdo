@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9097bad-41d9-4a55-871f-d7891a89f202">
+  <producedTypes>
+    <refType typeId="a11f0ae1-1ba1-464f-ba2f-ed1861e673a7" valueTypeId="d4b6418b-b62b-43fd-9add-296080a58d57"/>
+    <listType typeId="cc52df81-6ffe-4d98-9bb5-db3f1c99a1bb" valueTypeId="6f21b3ad-3719-4d76-a265-7c60adcaa1d4"/>
+    <managerType typeId="5ab99b46-6d7e-4f8f-974e-219481a7555e" valueTypeId="73d34ef6-73d5-4c58-8af5-033f685374c4"/>
+  </producedTypes>
+  <name>Вакансии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вакансии</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="12538cb7-f3f5-4264-b615-c612f528cac8">
+    <name>Оператор1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оператор1 С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="165e30ad-e992-4fa7-9849-1770235c8e85">
+    <name>Администратор1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор1 С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f82f73c-654a-43eb-992c-5734306dce03">
+    <name>Программист1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программист1 С</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
